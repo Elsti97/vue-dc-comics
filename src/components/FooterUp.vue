@@ -83,12 +83,6 @@ h3{
   display: flex;
 }
 
-ul{
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-start;
-}
-
 li{
   color: #959595;
   list-style: none;
