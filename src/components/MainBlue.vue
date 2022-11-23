@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .width-80{
+.width-80{
   width: 80%;
   margin: auto;
 }
@@ -50,6 +50,7 @@ ul{
   align-self: center;
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
 
 li{

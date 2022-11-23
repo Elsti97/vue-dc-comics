@@ -14,13 +14,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .black-row{
+.black-row{
     color: white;
     background-color: #1C1C1C;
     padding: 1rem;
   }
 
-  .width-80{
+.width-80{
   width: 80%;
   margin-top: 1rem;
   margin: auto;
