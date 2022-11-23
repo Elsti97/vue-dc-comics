@@ -1,5 +1,5 @@
 <template>
-  <div class="between">
+  <div class="space-between">
     <img src="../assets/img/dc-logo.png" alt="Logo header">
     <div>
       <ul>
@@ -30,10 +30,10 @@ export default {
   display: flex;
 }
 
-.between{
-  justify-content: space-around;
+.space-between{
+  justify-content: space-between;
   width: 80%;
-  margin: auto;
+  margin: 1rem auto;
 }
 
 ul{
