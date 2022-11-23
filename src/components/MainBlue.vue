@@ -44,6 +44,8 @@ export default {
 .blue-row{
   background-color: #2F82F9;
   padding-top: .1rem;
+  position: relative;
+  z-index: 1;
 }
 
 ul{

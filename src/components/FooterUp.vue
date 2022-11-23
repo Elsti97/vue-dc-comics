@@ -43,8 +43,8 @@
       </div>
 
       <!-- LOGO BIG -->
-      <div>
-        <img src="../assets/img/dc-logo-bg.png" alt="big logo">
+      <div class="relative">
+        <img class="big-logo" src="../assets/img/dc-logo-bg.png" alt="big logo">
       </div>
     </div>
   </div>
@@ -94,5 +94,15 @@ li{
   list-style: none;
   font-size: .9rem;
   line-height: 1.5rem;
+}
+
+.relative{
+  position: relative;
+}
+
+.big-logo{
+  position: absolute;
+  bottom: -4rem;
+  right: 0;
 }
 </style>
