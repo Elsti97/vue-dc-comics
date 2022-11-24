@@ -43,8 +43,8 @@
       </div>
 
       <!-- LOGO BIG -->
-      <div class="relative">
-        <img class="big-logo" src="../assets/img/dc-logo-bg.png" alt="big logo">
+      <div class="big-logo">
+
       </div>
     </div>
   </div>
@@ -64,14 +64,13 @@ name: 'FooterComp',
 
 .bg-footer{
   background: url('../assets/img/footer-bg.jpg');
-  padding-top: 1rem;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 .space-between{
   justify-content: space-between;
-  margin: 1rem auto 0 auto;
+  margin: auto;
   display: flex;
 }
 
@@ -90,13 +89,11 @@ li{
   line-height: 1.5rem;
 }
 
-.relative{
-  position: relative;
-}
-
 .big-logo{
-  position: absolute;
-  bottom: -4rem;
-  right: 0;
+  background-image: url('../assets/img/dc-logo-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
 }
 </style>

@@ -29,8 +29,6 @@ name: 'FooterComp',
 <style scoped lang="scss">
 .bg-footer-down{
   background-color: #303030;
-  position: relative;
-  z-index: 1;
 }
 
 .width-80{
