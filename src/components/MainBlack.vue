@@ -2,9 +2,15 @@
   <!-- BLACK ROW -->
   <div>
     <div class="jumbotron"></div>
+    <div class="width-80 p-relative">
+      <button class="button-blue p-absolute">CURRENT SERIES</button>
+    </div>
     <div class="black-row">
       <div class="width-80 wrap">
-        <CardMain v-for="(elem, index) in cards" :key="index" />
+        <CardMain v-for="(elem, index) in cards" :key="index" :comics="elem" />
+      </div>
+      <div class="center">
+        <button class="button-blue">LOAD MORE</button>
       </div>
     </div>
   </div>
@@ -119,6 +125,16 @@ export default {
   padding: 1rem;
 }
 
+.p-relative{
+  position: relative;
+}
+
+.p-absolute{
+  position: absolute;
+  left: -1rem;
+  bottom: -2rem;
+}
+
 .jumbotron {
   background-image: url("../assets/img/jumbotron.jpg");
   background-repeat: no-repeat;
@@ -135,5 +151,18 @@ export default {
 .wrap{
   display: flex;
   flex-wrap: wrap;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.button-blue{
+  border: none;
+  color: white;
+  background-color: #2F82F9;
+  padding: .8rem 3rem;
+  font-size: 1.2rem;
 }
 </style>
